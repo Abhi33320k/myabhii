@@ -221,6 +221,8 @@ body {
         color: blue;
         width: 80%;
         text-align: center;
+        line-height: 2; 
+        margin-bottom: 10px;
     }
     
     .close-btn {
@@ -421,7 +423,7 @@ body {
                
                .card-jobtitle {
                  position: absolute;
-                 bottom: 0;
+                 bottom: -10px;
                  font-size: 11px;
                  white-space: nowrap;
                  font-weight: 500;
@@ -1170,3 +1172,7 @@ a {
         transition: all 200ms linear;
       }
 
+.columnn{
+    line-height: 1.6; 
+    margin-bottom: 10px;
+}
